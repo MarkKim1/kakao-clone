@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Chats | Kakao Clone</title>
+    <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/7e25b6e71f.js"
       crossorigin="anonymous"
     ></script>
+    <title>Chats | Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -45,17 +46,25 @@
       <ul class="chats__list">
         <li class="chats__chat chat">
           <a href="chat.html">
-            <div class="chat__cloumn">
-              <img class="chat__avatar g-avatar" src="images/avatar.jpg" />
-              <div class="chat__content">
-                <span class="chat__username">
-                  Minseok Kim
-                </span>
-                <span class="chat__preview">Hello </span>
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
+                <img src="images/avatar.jpg" class="m-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    mio
+                  </span>
+                  <span class="friend__bottom-text">
+                    going home!
+                  </span>
+                </div>
               </div>
-            </div>
-            <div class="chat__cloumn">
-              <span class="chat__timestamp">Yesterday</span>
+              <div class="friend__column">
+                <div class="friend__now-listening">
+                  <span class="chat__timestamp">
+                    March
+                  </span>
+                </div>
+              </div>
             </div>
           </a>
         </li>
@@ -70,6 +79,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
